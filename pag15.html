@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mouseup demo</title>
+        <script type="text/javascript" src="js/jquery-3.7.0.min.js"></script>
+    </head>
+    <body>
+        <p>Precione o mouse aqui.
+            Ao clicar MOUSE DOWN aparecera em sua tela.
+            Ao soltar, MOUSE UP fará o mesmo.
+        </p>
+    <script>
+        $("p")
+            .mouseup(function(){
+                $(this).append("<span style='color:#f00;'>Mouse up.</span>");
+            })
+            .mousedown(function(){
+                $(this).append("<span style='color:#00f;'>Mouse down.</span>");
+            });
+        </script>
+    </body>
+</html>

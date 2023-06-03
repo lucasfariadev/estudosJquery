@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animacao 3</title>
+    <script type="text/javascript" src="js/jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <button id="esquerda">&laquo</button>
+    <button id="direita">&raquo</button>
+    <div class="quadrado" style="background-color: blue;"></div>
+
+    <script>
+        $("#direita").click(function(){
+            $(".quadrado").animate({
+                "left": "+=50px"},"slow");
+            });
+        $("#esquerda").click(function(){
+            $(".quadrado").animate({
+                "left": "-=50px"},"slow");
+            });       
+    </script>
+</body>
+</html>
