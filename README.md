@@ -11,13 +11,11 @@ Este projeto contém diversos exemplos de código utilizando jQuery e Ajax, dese
 
 1. Faça o download do projeto ou clone este repositório em sua máquina local.
 
-2. Abra o arquivo `index.html` em seu navegador para acessar a página principal.
+2. Navegue pelas diferentes seções e exemplos para ver como o jQuery e o Ajax podem ser utilizados para manipulação de elementos HTML, animações, eventos e comunicação assíncrona com o servidor.
 
-3. Navegue pelas diferentes seções e exemplos para ver como o jQuery e o Ajax podem ser utilizados para manipulação de elementos HTML, animações, eventos e comunicação assíncrona com o servidor.
+3. Cada exemplo está localizado em um arquivo JavaScript e HTML separado, dentro da pasta . Caso queira modificar ou adicionar novos exemplos, você pode editar esses arquivos.
 
-4. Cada exemplo está localizado em um arquivo JavaScript e HTML separado, dentro da pasta . Caso queira modificar ou adicionar novos exemplos, você pode editar esses arquivos.
-
-5. Para facilitar a leitura e organização do código, é recomendado que você mantenha o seu próprio código em arquivos JavaScript externos, referenciando-os no arquivo `pag*.html`.
+4. Para facilitar a leitura e organização do código, é recomendado que você mantenha o seu próprio código em arquivos JavaScript externos, referenciando-os no arquivo `pag*.html`.
 
 ## Recursos
 
