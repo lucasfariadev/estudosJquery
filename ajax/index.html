@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script>
+        function carregar(pagina){
+            $("#conteudo").load(pagina);
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="#" onclick="carregar('pag01.html')">Soma</a></li>
+            <li><a href="#" onclick="carregar('pag02.html')">Cadastro</a></li>
+        </ul>
+
+        <input type="button" value="Soma" id="btn" onclick="carregar('pag01.html')">
+        <input type="button" value="Cadastro" id="btn" onclick="carregar('pag02.html')">
+    </div>
+
+    <div id="conteudo"></div>
+</body>
+</html>
